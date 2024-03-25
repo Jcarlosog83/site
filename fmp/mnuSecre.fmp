@@ -1,0 +1,74 @@
+<TEMPLATE APPNAME="123FLASHMENU" VER_NUMBER="2" VER_LOWNUMBER="2" TYPE="3" SWF_NAME="collapse menu" SUB_LEVEL="2" CATALOG="2" SWF_SHOWNAME="collapse menu" WIDTH="142" HEIGHT="250" BGCOLOR="clWhite" FLASHBGCOLOR="0xFFDCB9" TRANSPARENT="false" AUTOSIZE="false">
+	<GROUP_ATTRIBUTE>
+		<PARAM ID="1" DF_VALUE="new item"/>
+		<PARAM ID="2" DF_VALUE=""/>
+		<PARAM ID="3" DF_VALUE="_blank,_parent,_self,_top"/>
+	</GROUP_ATTRIBUTE>
+	<GROUP_MENU>
+		<GROUP_PARAM ID="300">
+			<PARAM ID="303" DF_VALUE="Left,Center,Right"/>
+			<PARAM ID="304" DF_VALUE="clBlack"/>
+			<PARAM ID="305" DF_VALUE="$00C60000"/>
+			<PARAM ID="306" DF_VALUE="true"/>
+			<PARAM ID="307" DF_VALUE="0xFFBE7D"/>
+			<PARAM ID="308" DF_VALUE="true"/>
+			<PARAM ID="309" DF_VALUE="clNavy"/>
+			<PARAM ID="310" DF_VALUE="true"/>
+			<PARAM ID="311" DF_VALUE="false"/>
+			<PARAM ID="312" DF_VALUE="Vertical,Horizontal"/>
+			<PARAM ID="313" DF_VALUE="clWhite"/>
+			<PARAM ID="314" DF_VALUE="clWhite"/>
+			<PARAM ID="315" DF_VALUE="clNavy"/>
+			<PARAM ID="316" DF_VALUE="Verdana"/>
+			<PARAM ID="317" DF_VALUE="8"/>
+			<PARAM ID="318" DF_VALUE="Bold,Plain,Italic,Bold-Italic"/>
+			<PARAM ID="319" DF_VALUE="20"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="301">
+			<PARAM ID="320" DF_VALUE="20"/>
+			<PARAM ID="321" DF_VALUE="clBlack"/>
+			<PARAM ID="322" DF_VALUE="clWhite"/>
+			<PARAM ID="323" DF_VALUE="0x999999"/>
+			<PARAM ID="324" DF_VALUE="MS Sans Serif"/>
+			<PARAM ID="325" DF_VALUE="9"/>
+			<PARAM ID="326" DF_VALUE="Plain,Bold,Italic,Bold-Italic"/>
+			<PARAM ID="327" DF_VALUE="true"/>
+			<PARAM ID="328" DF_VALUE="false"/>
+			<PARAM ID="329" DF_VALUE="20"/>
+			<PARAM ID="8" DF_VALUE="Left,Center,Right"/>
+		</GROUP_PARAM>
+		<GROUP_PARAM ID="302">
+			<PARAM ID="331" DF_VALUE="clBlack"/>
+			<PARAM ID="332" DF_VALUE="Line,Box"/>
+			<PARAM ID="333" DF_VALUE="$00B2B2B2"/>
+			<PARAM ID="334" DF_VALUE="true"/>
+			<PARAM ID="335" DF_VALUE="clBlack"/>
+			<PARAM ID="336" DF_VALUE="Vertical,Horizontal"/>
+			<PARAM ID="337" DF_VALUE="false"/>
+			<PARAM ID="338" DF_VALUE="true"/>
+		</GROUP_PARAM>
+		<PARAM ID="339" DF_VALUE="1"/>
+		<PARAM ID="340" DF_VALUE="true"/>
+		<PARAM ID="341" DF_VALUE="10"/>
+		<PARAM ID="343" DF_VALUE="5"/>
+		<PARAM ID="344" DF_VALUE="_self"/>
+		<PARAM ID="345" DF_VALUE="250"/>
+		<PARAM ID="346" DF_VALUE="false"/>
+		<PARAM ID="347" DF_VALUE="true"/>
+		<PARAM ID="348" DF_VALUE=""/>
+		<PARAM ID="349" DF_VALUE=""/>
+		<PARAM ID="253" DF_VALUE=""/>
+	</GROUP_MENU>
+	<GROUP_SIZE>
+		<PARAM ID="140" DF_VALUE="142"/>
+		<PARAM ID="141" DF_VALUE="250"/>
+		<PARAM ID="142" DF_VALUE="false"/>
+	</GROUP_SIZE>
+	<GROUP_PAGE>
+		<PARAM ID="143" DF_VALUE="clWhite"/>
+		<PARAM ID="144" DF_VALUE="0xFFDCB9"/>
+		<PARAM ID="145" DF_VALUE="false"/>
+	</GROUP_PAGE>
+	<MENU>
+		<item name="REGISTRAR" callback="onClick"><item name="Actividad" url="sitioWEB/jsp/r_actividad" target="_parent" callback="onClick"/><item name="Alumno" target="_parent" callback="onClick"/><item name="Profesor" target="_parent" callback="onClick"/><item name="Turno" target="_parent" callback="onClick"/></item><item name="ASIGNAR" callback="onClick"><item name="Docente a la Actividad" target="_parent" callback="onClick"/></item><item name="CONSULTAS" callback="onClick"><item name="Por Alumno" target="_parent" callback="onClick"/><item name="Por Actividad" target="_parent" callback="onClick"/><item name="Por Turno" target="_parent" callback="onClick"/><item name="Order History" callback="onClick"/><item name="More..." callback="onClick"/></item><item name="SALIR" callback="onClick"/></MENU>
+</TEMPLATE>
